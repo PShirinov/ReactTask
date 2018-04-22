@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './profile.css'
-import Nav from './Nav'
+import Nav from '../Nav/Nav'
 import {browserHistory} from 'react-router'
 
 class Profile extends Component {

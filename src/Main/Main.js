@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Nav from './Nav'
+import Nav from '../Nav/Nav'
 
 
 class Main extends Component {

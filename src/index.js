@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, browserHistory} from 'react-router'
-import Main from './Main'
-import Login from './Login'
-import NewsList from './NewsList'
-import Profile from './Profile'
-import {newsData} from './newsData'
+import Main from './Main/Main'
+import Login from './Login/Login'
+import NewsList from './NewsList/NewsList'
+import Profile from './Profile/Profile'
+import {newsData} from './News/newsData'
 
 
 
