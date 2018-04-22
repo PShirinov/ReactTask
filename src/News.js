@@ -1,14 +1,18 @@
 import React, {Component} from 'react'
-import Nav from './Nav'
 
 
 class News extends Component {
+
     render(){
+
+        const {newsData} = this.props
+
         return(
-            <div>
-                <Nav/>
-                <p>В Париже встреча глав государств</p>
-            </div>
+                <div>
+                    <h1>{newsData.title}</h1>
+                    <p>{newsData.text}</p>
+                    <p>{newsData.date}</p>
+                </div>
         );
     }
 }

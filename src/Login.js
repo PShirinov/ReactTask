@@ -19,12 +19,12 @@ class Login extends Component {
 
     handleSubmit = (e) =>{
         e.preventDefault();
-        const login = e.target.elements[0].value;
-        const pass = e.target.elements[1].value;
+        const login = e.target.elements[0].value
+        const pass = e.target.elements[1].value
         window.localStorage.setItem('site_login', login)
         window.localStorage.setItem('site_pass', pass)
 
-        if(login === 'admin' && pass == '12345') {
+        if(login === 'admin' && pass === '12345') {
             window.localStorage.setItem('auth', "true")
             browserHistory.push('/profile')
         } else {

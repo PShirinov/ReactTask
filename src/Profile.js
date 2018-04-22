@@ -11,8 +11,6 @@ class Profile extends Component {
             browserHistory.push('/login')
         }
     }
-
-
         render(){
             return (
                 <div>
@@ -23,8 +21,6 @@ class Profile extends Component {
                 </div>
             );
         }
-
-
 }
 
 export default Profile
